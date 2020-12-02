@@ -1,6 +1,6 @@
 # Game of Movement
 
-This project is a Game of Three implementation. It does not provide a web interface. Thus, the player must use an HTTP API client, like Postman, curl, or the Swagger UI, available at the URL <http://localhost:8080/swagger-ui>, if you are using de default configuration. The solution tries to be as simple as possible, what brings on a few problems, described in section *Known issues*.
+This project is a Game of Three implementation. It does not provide a web interface. Thus, the player must use an HTTP API client, like Postman, curl, or the Swagger UI, available at the URL <http://localhost:8080/swagger-ui/>, if you are using de default configuration. The solution tries to be as simple as possible, what brings on a few problems, described in section *Known issues*.
 
 The main technologies used in this game are:
 
@@ -18,7 +18,7 @@ The game is composed by the following endpoints. In the next section, we can see
 * `GET /v1/players`: query the game state;
 * `POST /v1/players/restart`: restart the game.
 
-The image below shows the Swagger UI of the application, available at <http://localhost:8080/swagger-ui>.
+The image below shows the Swagger UI of the application, available at <http://localhost:8080/swagger-ui/>.
 
 ![image](images/api-swagger-overview.png)
 
