@@ -1,5 +1,10 @@
 package io.gameofmovement.controller;
 
+/**
+ * 
+ * Integration tests
+ * 
+ */
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

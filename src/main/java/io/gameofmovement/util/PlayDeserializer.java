@@ -8,6 +8,14 @@ import com.google.gson.Gson;
 
 import io.gameofmovement.model.Play;
 
+/**
+ * 
+ * Deserializer for the Kafka
+ * 
+ * @author Marco Reis
+ *
+ */
+
 public class PlayDeserializer implements Deserializer<Play> {
     private static final Charset CHARSET = Charset.forName("UTF-8");
     static private Gson gson = new Gson();

@@ -8,6 +8,14 @@ import io.gameofmovement.model.GameStatus;
 import io.gameofmovement.model.Play;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * 
+ * Backend class to consume events from Kafka.
+ * 
+ * @author Marco Reis
+ *
+ */
+
 @Slf4j
 @Component
 public class GameServer {

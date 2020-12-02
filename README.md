@@ -8,7 +8,9 @@ The main technologies used in this game are:
 * Spring Boot;
 * Spring for Apache Kafka;
 * Apache Kafka;
-
+* JUnit;
+* Lombok.
+  
 ## API documentation
 
 The game is composed by the following endpoints. In the next section, we can see a complete example of how to play a game.

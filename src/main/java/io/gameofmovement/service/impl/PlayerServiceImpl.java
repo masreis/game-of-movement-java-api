@@ -11,6 +11,12 @@ import io.gameofmovement.service.PlayerService;
 import io.gameofmovement.streaming.GameServer;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * The service implementation for the game
+ * 
+ * @author Marco Reis
+ *
+ */
 @Service
 @Slf4j
 public class PlayerServiceImpl implements PlayerService {

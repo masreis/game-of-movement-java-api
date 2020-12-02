@@ -6,6 +6,12 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
+/**
+ * Exception handler for the Game of Movement app
+ * 
+ * @author Marco Reis
+ *
+ */
 @ControllerAdvice
 public class GameOfMovementExceptionHandler extends ResponseEntityExceptionHandler {
 

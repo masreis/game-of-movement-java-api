@@ -13,6 +13,14 @@ import io.gameofmovement.model.Play;
 import io.gameofmovement.service.PlayerService;
 import io.swagger.annotations.ApiOperation;
 
+
+/**
+ * 
+ * The controller class
+ * 
+ * @author Marco Reis
+ *
+ */
 @RestController
 @RequestMapping("/v1/players")
 public class PlayerController {

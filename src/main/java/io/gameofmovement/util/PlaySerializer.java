@@ -8,6 +8,13 @@ import com.google.gson.Gson;
 
 import io.gameofmovement.model.Play;
 
+/**
+ * 
+ * Serializer for the Kafka
+ * 
+ * @author Marco Reis
+ *
+ */
 public class PlaySerializer implements Serializer<Play> {
 
     private static final Charset CHARSET = Charset.forName("UTF-8");
