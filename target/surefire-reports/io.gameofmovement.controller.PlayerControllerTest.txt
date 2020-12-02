@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: io.gameofmovement.controller.PlayerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 5.9 s <<< FAILURE! - in io.gameofmovement.controller.PlayerControllerTest
+testPlay  Time elapsed: 0.144 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at io.gameofmovement.controller.PlayerControllerTest.testPlay(PlayerControllerTest.java:68)
+
+testPlayInvalidPlayer  Time elapsed: 0.064 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <org.springframework.web.client.HttpClientErrorException.BadRequest> but was: <org.springframework.web.client.RestClientException>
+	at io.gameofmovement.controller.PlayerControllerTest.testPlayInvalidPlayer(PlayerControllerTest.java:141)
+Caused by: org.springframework.web.client.RestClientException: 
+Error while extracting response for type [class java.lang.Object] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Invalid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Invalid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (sun.net.www.protocol.http.HttpURLConnection$HttpInputStream); line: 1, column: 9]
+	at io.gameofmovement.controller.PlayerControllerTest.lambda$testPlayInvalidPlayer$0(PlayerControllerTest.java:143)
+	at io.gameofmovement.controller.PlayerControllerTest.testPlayInvalidPlayer(PlayerControllerTest.java:141)
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: 
+JSON parse error: Unrecognized token 'Invalid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Invalid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (sun.net.www.protocol.http.HttpURLConnection$HttpInputStream); line: 1, column: 9]
+	at io.gameofmovement.controller.PlayerControllerTest.lambda$testPlayInvalidPlayer$0(PlayerControllerTest.java:143)
+	at io.gameofmovement.controller.PlayerControllerTest.testPlayInvalidPlayer(PlayerControllerTest.java:141)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unrecognized token 'Invalid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (sun.net.www.protocol.http.HttpURLConnection$HttpInputStream); line: 1, column: 9]
+	at io.gameofmovement.controller.PlayerControllerTest.lambda$testPlayInvalidPlayer$0(PlayerControllerTest.java:143)
+	at io.gameofmovement.controller.PlayerControllerTest.testPlayInvalidPlayer(PlayerControllerTest.java:141)
+
+testPlayInvalidValue  Time elapsed: 0.038 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <org.springframework.web.client.HttpClientErrorException.BadRequest> but was: <org.springframework.web.client.RestClientException>
+	at io.gameofmovement.controller.PlayerControllerTest.testPlayInvalidValue(PlayerControllerTest.java:169)
+Caused by: org.springframework.web.client.RestClientException: 
+Error while extracting response for type [class java.lang.Object] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Invalid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Invalid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (sun.net.www.protocol.http.HttpURLConnection$HttpInputStream); line: 1, column: 9]
+	at io.gameofmovement.controller.PlayerControllerTest.lambda$testPlayInvalidValue$1(PlayerControllerTest.java:171)
+	at io.gameofmovement.controller.PlayerControllerTest.testPlayInvalidValue(PlayerControllerTest.java:169)
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: 
+JSON parse error: Unrecognized token 'Invalid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Invalid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (sun.net.www.protocol.http.HttpURLConnection$HttpInputStream); line: 1, column: 9]
+	at io.gameofmovement.controller.PlayerControllerTest.lambda$testPlayInvalidValue$1(PlayerControllerTest.java:171)
+	at io.gameofmovement.controller.PlayerControllerTest.testPlayInvalidValue(PlayerControllerTest.java:169)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unrecognized token 'Invalid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (sun.net.www.protocol.http.HttpURLConnection$HttpInputStream); line: 1, column: 9]
+	at io.gameofmovement.controller.PlayerControllerTest.lambda$testPlayInvalidValue$1(PlayerControllerTest.java:171)
+	at io.gameofmovement.controller.PlayerControllerTest.testPlayInvalidValue(PlayerControllerTest.java:169)
+

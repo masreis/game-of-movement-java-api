@@ -1,0 +1,15 @@
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/service/impl/PlayerServiceImpl.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/GameOfMovementJavaApiApp.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/model/Play.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/util/PlayDeserializer.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/SwaggerConfig.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/exception/GameOfMovementExceptionHandler.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/model/GameStatus.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/service/PlayerService.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/model/GameEvent.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/util/PlaySerializer.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/GameOfMovementJavaApiConfig.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/util/GameEventDeserializer.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/streaming/GameServer.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/controller/PlayerController.java
+/home/marco/git/personal/game-of-movement/game-of-movement-java-api/src/main/java/io/gameofmovement/util/GametEventSerializer.java
