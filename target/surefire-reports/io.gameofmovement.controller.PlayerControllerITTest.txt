@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: io.gameofmovement.controller.PlayerControllerITTest
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.105 s <<< FAILURE! - in io.gameofmovement.controller.PlayerControllerITTest
-testPlayNotDivisible  Time elapsed: 2.048 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at io.gameofmovement.controller.PlayerControllerITTest.testPlayNotDivisible(PlayerControllerITTest.java:233)
-
